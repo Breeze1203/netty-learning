@@ -2,26 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.sanshengshui</groupId>
+    <groupId>com.example</groupId>
     <artifactId>netty-helloworld</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>netty :: HelloWorld</name>
+    <name>netty HelloWorld</name>
     <description>netty实现 服务端和客户端 实现通讯的完整案例</description>
-
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-        <netty-all.version>4.1.42.Final</netty-all.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>${netty-all.version}</version>
+            <version>4.1.100.Final</version>
         </dependency>
     </dependencies>
 
