@@ -1,10 +1,10 @@
-package com.sanshengshui.netty.serialize.impl;
+package com.example.netty.serialize.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.sanshengshui.netty.serialize.Serializer;
+import com.example.netty.serialize.Serializer;
 
 /**
- * @author 穆书伟
+ * @author 彭涛
  */
 public class JSONSerializer implements Serializer {
     @Override

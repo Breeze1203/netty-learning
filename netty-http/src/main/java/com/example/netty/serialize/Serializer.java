@@ -1,4 +1,4 @@
-package com.sanshengshui.netty.serialize;
+package com.example.netty.serialize;
 
 /**
  * 序列化接口类

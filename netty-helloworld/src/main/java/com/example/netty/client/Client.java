@@ -40,7 +40,7 @@ public final class Client {
                 // 将读取到的文本发送到服务器，使用writeAndFlush方法，同时将结果存储在lastWriteFuture变量中
                 lastWriteFuture = ch.writeAndFlush(line + "\r\n");
                 // 如果输入的文本是"bye"，执行以下操作：
-                if ("bye".equals(line.toLowerCase())) {
+                if ("bye".equalsIgnoreCase(line)) {
                     // 等待服务器关闭连接
                     ch.closeFuture().sync();
                     // 退出循环

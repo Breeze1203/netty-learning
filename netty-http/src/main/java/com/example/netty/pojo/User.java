@@ -1,4 +1,4 @@
-package com.sanshengshui.netty.pojo;
+package com.example.netty.pojo;
 import lombok.Data;
 
 import java.util.Date;
