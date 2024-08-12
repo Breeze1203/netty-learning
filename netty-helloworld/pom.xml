@@ -6,7 +6,7 @@
     <artifactId>netty-helloworld</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>netty HelloWorld</name>
-    <description>netty实现 服务端和客户端 实现通讯的完整案例</description>
+    <description>netty实现 服务端和客户端 实现通讯的案例</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
